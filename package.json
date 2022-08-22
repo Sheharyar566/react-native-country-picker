@@ -1,0 +1,19 @@
+{
+  "name": "@sheharyar566/react-native-country-picker",
+  "version": "1.0.0",
+  "description": "React Native Country Picker",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sheharyar566/react-native-country-picker.git"
+  },
+  "author": "Sheharyar566",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sheharyar566/react-native-country-picker/issues"
+  },
+  "homepage": "https://github.com/Sheharyar566/react-native-country-picker#readme"
+}
