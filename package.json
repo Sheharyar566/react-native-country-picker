@@ -6,6 +6,10 @@
   "scripts": {
     "test": "test"
   },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sheharyar566/react-native-country-picker.git"
@@ -15,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/Sheharyar566/react-native-country-picker/issues"
   },
-  "homepage": "https://github.com/Sheharyar566/react-native-country-picker#readme"
+  "homepage": "https://github.com/Sheharyar566/react-native-country-picker#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-native": "^0.69.5",
+    "react": "^18.0.0",
+    "react-native": "^0.69.4",
+    "typescript": "^4.7.4"
+  }
 }
