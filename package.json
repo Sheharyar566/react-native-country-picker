@@ -4,7 +4,12 @@
   "description": "React Native Country Picker",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "lint:check": "eslint",
+    "lint:fix": "eslint --fix",
+    "format:check": "prettier",
+    "prettier:fix": "prettier --write --ignore-unknown",
+    "test": "test",
+    "prepare": "husky install"
   },
   "peerDependencies": {
     "react": "*",
@@ -23,8 +28,22 @@
   "devDependencies": {
     "@types/react": "^18.0.17",
     "@types/react-native": "^0.69.5",
+    "@typescript-eslint/eslint-plugin": "^5.34.0",
+    "@typescript-eslint/parser": "^5.34.0",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.30.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1",
     "react": "^18.0.0",
     "react-native": "^0.69.4",
     "typescript": "^4.7.4"
+  },
+  "lint-staged": {
+    "**/*": [
+      "npm run lint:fix",
+      "npm run prettier:fix"
+    ]
   }
 }
